@@ -1,0 +1,48 @@
+}
+.fadingcells {
+  background-color:#0D0D0D;
+  transition: background-color 1s;
+}
+.cell {
+  color: #FFFFFF;
+  transition: color 0.5s;
+}
+.fadingcells:hover {
+  background-color: orange;
+}
+.fadingcells:hover .cell {
+  color: orange;
+}
+
+body {
+  background-image: url("HAIKYUU.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+
+
+.FONT {
+  font-size:150px;
+  font-family: Monaco, monospace;
+  color:black;
+  -webkit-text-fil-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: orange;
+}
+
+.FONTFADING {
+  font-size:50px;
+  font-family: Monaco, monospace;
+  color:black;
+  -webkit-text-fil-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: orange;
+}
+
+table {
+   border: 1px solid;
+   text-align: center;
+   background-color: #000000;
+   color: orange;
+}
+
